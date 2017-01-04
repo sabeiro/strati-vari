@@ -1,0 +1,12 @@
+group() {
+	group() {
+		difference() {
+			union() {
+				cylinder($fn = 40, $fa = 12, $fs = 2, h = 210, r1 = 50, r2 = 55, center = false);
+			}
+			union() {
+				cylinder($fn = 40, $fa = 12, $fs = 2, h = 210, r1 = 46, r2 = 50.6, center = false);
+			}
+		}
+	}
+}
